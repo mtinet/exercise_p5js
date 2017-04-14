@@ -29,8 +29,8 @@ function draw() {
   
   //Zoog 다리 그리기
   stroke(0);
-  line(mouseX-10, mouseY+50, pmouseX-10, pmouseY+60);
-  line(mouseX+10, mouseY+50, pmouseX+10, pmouseY+60);
+  line(mouseX-10, mouseY+50, pmouseX-10, pmouseY+80);
+  line(mouseX+10, mouseY+50, pmouseX+10, pmouseY+80);
 }
 
 function mousePressed() {
